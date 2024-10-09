@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #f2f2f2; */
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  /* background: transparent; */
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+.project-image {
+  width: 200px;
+  height: 10px; /* To maintain the aspect ratio */
+}
+.project {
+  margin: 20px 0;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+  nav ul {
+      text-align: center;
+      padding-top: 10px;
+  }
+
+  nav li {
+      display: block;
+      margin: 10px 0;
+  }
+}
